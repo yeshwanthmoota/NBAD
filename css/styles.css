@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+}
+
+
+/* HEADER */
+    header {
+        /* general prop */
+        padding: 10px 20px;
+        background-color: violet;
+        color: white;
+        margin: 0;
+    }
+    header a {
+        color: white;
+    }
+    header a:visited {
+        color: white;
+        text-decoration: none;
+    }
+    header a:hover {
+        color: brown;
+    }
+    header .flex-container {
+        /* now display prop */
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+    }
+    header .flex-logo {
+        text-decoration: none;
+        display: flex;
+        flex-direction: row;
+        /* justify-content: space-between; */
+        align-items: center;
+
+    }
+    header .flex-logo a{
+        text-decoration: none;
+    }
+    header .flex-links a {
+        text-decoration: none;
+        margin: 5px;
+    }
+    header .flex-links .login {
+        padding: 10px;
+        border: 2px solid black;
+        background-color: white;
+        color: black;
+        margin-left: 10px;
+    }
+    header .flex-links .login:hover {
+        background-color: black;
+        color: white;
+    }
+    header .flex-links .signup {
+        padding: 12px;
+        border: none;
+        background-color: black;
+        color: white;
+    }
+    header .flex-links .signup:hover {
+        background-color: wheat;
+        color: black;
+    }
+    header hr {
+        border: 1px solid yellow;
+        margin-top: 5px;
+    }
+    header .events {
+        text-decoration: none;
+        display: inline-block;
+        background-color: violet;
+        color: black;
+        padding: 10px;
+        margin-top: 10px;
+    }
+    header .events:hover {
+        background-color: rgb(133, 70, 133);
+        color: white;
+    }
+/* HEADER */
+
+/* BODY */
+    /**/
+/* BODY */
+
+/* FOOTER */
+    footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+
+
+    footer .flex-container {
+        /* Display properties */
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0px 20px;
+    }
+
+
+    footer .flex-container .flex-links {
+        /* Display properties */
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        /* a link prop */
+    }
+    footer .flex-container .flex-links div {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    footer .flex-container .flex-links div a {
+        color: white;
+        text-decoration: none;
+    }
+    footer .flex-container .flex-links div a:hover{
+        color: white;
+        text-decoration: underline;
+    }
+    footer .flex-container .flex-links div a:visited{
+        color: white;
+        text-decoration: none;
+    }
+
+
+    footer .social-media {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    footer .social-media div {
+        margin: 10px;
+    }
+/* FOOTER */
