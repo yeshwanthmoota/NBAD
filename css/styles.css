@@ -7,7 +7,7 @@
     header {
         /* general prop */
         padding: 10px 20px;
-        background-color: violet;
+        background-color: rgb(5, 189, 21);
         color: white;
         margin: 0;
     }
@@ -72,19 +72,24 @@
     header .events {
         text-decoration: none;
         display: inline-block;
-        background-color: violet;
+        background-color: rgb(33, 141, 0);
         color: black;
         padding: 10px;
         margin-top: 10px;
     }
     header .events:hover {
-        background-color: rgb(133, 70, 133);
+        background-color: rgb(0, 104, 0);
         color: white;
     }
 /* HEADER */
 
 /* BODY */
     /**/
+    main{
+        border: 20;
+        padding: 20;
+        align-items: center;
+    }
 /* BODY */
 
 /* FOOTER */
